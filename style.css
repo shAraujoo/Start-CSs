@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    body {
+    background-color: rgb(11, 231, 180);
+    }
+    
+    #titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    }
+    
+    .container {
+    width: 100%;
+    background: rgb(18, 6, 66);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    }
+    
+    .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    
+    nav input[type="submit"] {
+    background-color: rgb(11, 231, 180);
+    color: white;
+    border: 2px solid rgb(11, 231, 180); /* Borda da cor da página */
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+    
+    nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    }
+    
+    nav a:hover {
+    color: gray;
+    font-size: 18px;
+    }
+    
+    .container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+    }
+    
+    .container2 img {
+    width: 250px;
+    border-radius: 50%;
+    }
+    
+    .text-container {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    }
+    
+    #Titulocentral {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    }
+    
+    #subtitulo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #linha {
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: center;
+    }
